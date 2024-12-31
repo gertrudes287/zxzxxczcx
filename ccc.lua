@@ -281,16 +281,7 @@ local AntiHook = function(Func)
 	end
 end
 
-print("tom de pele (1)")
-
-local v4 = game:GetService("Players").LocalPlayer
-local v9 = v4.Character or v4.CharacterAdded:Wait()
-local root = v9:WaitForChild("HumanoidRootPart", math.huge)
-root.ChildAdded:connect(function(p1)
-	print("dmskadmklss", p1)
-end)
-
-return ("uh oh, you dont see code?"):reverse((function() 
+--return ("uh oh, you dont see code?"):reverse((function() 
 
 	--[[pcall(function()
 		game.StarterPlayer.StarterPlayerScripts[nome]:Destroy()
@@ -575,4 +566,4 @@ return ("uh oh, you dont see code?"):reverse((function()
 		end)
 	end)
 
-end)()):reverse()
+--end)()):reverse()
